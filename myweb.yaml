@@ -23,7 +23,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: 10.132.132.100:5000/mozart4242/myweb:<TAG>
+      - image: 10.132.132.104:5000/mozart4242/myweb:<TAG>
         imagePullPolicy: Always
         name: myweb
 
