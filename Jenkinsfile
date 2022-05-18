@@ -19,7 +19,7 @@ pipeline {
             sh '''
             /kaniko/executor --dockerfile `pwd`/Dockerfile \
                              --context `pwd` \
-                             --destination=10.132.132.100:5000/mozart4242/myweb:${BUILD_NUMBER}
+                             --destination=10.132.132.104:5000/mozart4242/myweb:${BUILD_NUMBER}
             '''
           }
         }
